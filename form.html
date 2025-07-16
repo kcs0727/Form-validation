@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="form.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <title>login</title>
+    </head>
+        
+    <body>
+        <div class="container">
+            <h1>Register Here!</h1>
+
+            <form action="submit.html" novalidate>
+
+                <div class="box">
+                    <label for="username">Username:</label><br>
+                    <input type="text" placeholder="enter Username" id="username" autofocus>
+                    
+                    <span class="errormsg">
+                        <i class="fa-solid fa-circle-exclamation"></i>  
+                        <small>error message</small>
+                    </span>
+                </div>
+                
+                <div class="box">
+                    <label for="email">Email:</label><br>
+                    <input type="email" placeholder="enter mail" id="email">
+                    
+                    <span class="errormsg">
+                        <i class="fa-solid fa-circle-exclamation"></i>  
+                        <small>error message</small>
+                    </span>
+                </div>
+                
+                <div class="box">
+                    <label for="number">Mobile Number:</label><br>
+                    <input type="text" placeholder="enter number" id="number">
+                    
+                    <span class="errormsg">
+                        <i class="fa-solid fa-circle-exclamation"></i>  
+                        <small>error message</small>
+                    </span>
+                </div>
+
+                <div class="box">
+                    <label for="password">Password:</label><br>
+                    <input type="password" placeholder="enter password" id="password">
+                    
+                    <span class="errormsg">
+                        <i class="fa-solid fa-circle-exclamation"></i>  
+                        <small>error message</small>
+                    </span>
+                </div>
+                
+                <div class="box">
+                    <label for="confirmp">Confirm Password:</label><br>
+                    <input type="password" placeholder="confirm your password" id="confirmp">
+                    
+                    <span class="errormsg">
+                        <i class="fa-solid fa-circle-exclamation"></i>  
+                        <small>error message</small>
+                    </span>
+                </div>
+                
+                <div class="tickbox">
+                    <input type="checkbox" name="terms" id="terms">I agree to <a href="#">terms and conditions</a>     
+                    <span class="errormsg"> 
+                        <small>error message</small>
+                    </span>     
+                </div>
+
+                <button type="submit">submit</button>
+            </form>
+        </div>
+
+
+        <script src="form.js"></script>
+    </body>
+</html>
